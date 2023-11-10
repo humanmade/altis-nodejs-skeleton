@@ -1,0 +1,29 @@
+{
+  "name": "altis-skeleton",
+  "version": "0.0.1",
+  "description": "Altis Skeleton for NodeJS Applications",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanmade/altis-nodejs-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humanmade/altis-nodejs-skeleton/issues"
+  },
+  "homepage": "https://github.com/humanmade/altis-nodejs-skeleton#readme",
+  "dependencies": {
+    "next": "^14.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": "21.1"
+  }
+}
