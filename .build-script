@@ -1,0 +1,15 @@
+#!/bin/bash -e
+
+#====================#
+# Altis Build Script #
+#====================#
+
+# Install npm dependencies
+npm install --omit=dev
+
+npm run build
+
+# Edit below this line to add any additional build steps.
+#
+# Learn more about build scripts in the Altis documentation:
+# https://www.altis-dxp.com/resources/docs/cloud/build-scripts/
